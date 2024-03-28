@@ -1,0 +1,2 @@
+Client site Live Link: https://brand-shop-30018.web.app/
+Server Site Live Link: https://server-side-brandshop-22fbt0984-roman-sarkers-projects.vercel.app/
