@@ -1,0 +1,123 @@
+/* nav responsive area */
+
+/* responsive for mobile */
+
+
+@media screen and (max-width: 450px) {
+    .nav-container {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-container {
+        margin-left: 100px;
+    }
+
+    .nav-items-container {
+        width: 100%;
+    }
+
+    .a-img {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .login-button {
+        width: 100%;
+    }
+}
+
+
+
+
+
+/* responsive for tablet */
+@media screen and (max-width:768px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-items-container {
+        flex-direction: column;
+    }
+
+    .login-button {
+        width: 100%;
+
+    }
+}
+
+/* nav responsive area */
+
+/* action part */
+
+/* responsive for mobile */
+@media (max-width: 414px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+}
+
+/* responsive for tablet */
+
+@media screen and (max-width:768px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    }
+}
+
+
+/* Online Games Funny Videos */
+
+/* responsive for mobile */
+@media (max-width: 414px) {
+    .rectangle1 {
+        flex-direction: column;
+
+    }
+}
+
+/* responsive for tablet */
+
+@media screen and (max-width:768px) {
+    .rectangle1 {
+        flex-direction: column;
+
+    }
+}
+
+/* before footer section */
+@media screen and (max-width: 600px) {
+    .action-game-container {
+        width: 100%;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-margin {
+        margin-bottom: 30px;
+    }
+
+    .div {
+        width: 100%;
+    }
+
+    .action-btn {
+        width: 100%;
+    }
+
+    .action-btn img {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+/* before footer section */

@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,700&family=Work+Sans&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav-container {
+    display: flex;
+
+    min-height: 70px;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo-container {
+    display: flex;
+
+
+
+
+
+}
+
+.logo-container img {
+    width: 86.041px;
+    height: 40px;
+    margin: 20px 30px 20px 30px;
+}
+
+.logo-container p {
+    font-size: 45px;
+    margin: 20px 2px;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.nav-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.title-color {
+    background-image: linear-gradient(to bottom, #8758F1, #F948B2);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 40px;
+}
+
+
+.nav-items-container {
+    margin-left: 500px;
+    display: flex;
+    justify-content: space-around;
+    width: 1000%;
+    align-items: center;
+}
+
+.nav-items-container a {
+    text-decoration: none;
+
+}
+
+.a-img {
+    width: 30px;
+    height: 20px;
+}
+
+.login-button {
+    background-color: #cfc7e4;
+    padding: 10px 40px;
+    text-align: center;
+    font-weight: 500px;
+    border-radius: 5px;
+}
+
+/* banner container start */
+.btn-primary {
+
+    background-color: #F948B2;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+.fa-circle-play {
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.fa-cloud-arrow-down {
+    color: black;
+    font-size: 10px;
+
+}
+
+.fa-person-military-to-person {
+    color: black;
+    font-size: 10px;
+
+}
+
+.btn-secondary {
+    background-color: #83d0ee;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+.banner-container {
+    display: flex;
+    margin: 100px 200px;
+
+}
+
+.banner-img {
+    width: 10px;
+    margin-left: 100px;
+    /* height: 10px; */
+}
+
+.banner-text h1 {
+    background-image: linear-gradient(to bottom, #8758F1, #F948B2);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.banner-text h2 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+/* banner container end */
+
+
+/* funny style part */
+
+.card-container {
+    display: flex;
+    gap: 4px;
+
+}
+
+.text-container {
+    text-align: center;
+}
+
+.game-card img:hover {
+    border: 2px solid #FF42A5;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+
+    height: auto;
+    display: block;
+}
+
+.play-icon {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-container:hover .play-icon {
+    opacity: 1;
+}
+
+/* funny style part end */
+
+/* play section start */
+.play-item-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 20px;
+
+}
+
+.play-des {
+    align-items: end;
+    text-align: end;
+}
+
+
+.play-pic img {
+    margin-top: 10px;
+}
+
+.play-pic {
+    position: relative;
+}
+
+.img-two {
+    position: absolute;
+    bottom: -10px;
+    left: -45px;
+}
+
+/* play section end */
+
+
+/* review action button */
+
+.action-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 6px;
+
+    padding: 20px;
+    height: 200px;
+
+}
+
+.action-btn {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    padding: 15px;
+    border: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #f0f0f0;
+    border: 1px solid#f0f0f0;
+    border-radius: 50px;
+    width: 200px;
+
+
+}
+
+.action-btn:hover {
+    border: 1px solid #FF42A5;
+    border-radius: 50px;
+    color: #FF42A5;
+}
+
+.box-margin {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+/* review action button end*/
+
+
+/* footer style */
+footer {
+    background-color: #0B0223;
+
+}
+
+.footer-container {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-text {
+    color: #FFF;
+}
+
+.first-item {
+    display: flex;
+    gap: 4px;
+}
+
+.second-item {
+    display: flex;
+    gap: 16px;
+
+}
+
+.second-para {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.third-item {
+    display: flex;
+    gap: 4px;
+}
+
+.fourth-item {
+
+    display: flex;
+    gap: 10px;
+}
+
+.fourth-para {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* footer style end*/
